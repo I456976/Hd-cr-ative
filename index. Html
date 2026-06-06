@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HD Créative - Montage & Design</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0d0d0d;
+    color:white;
+}
+
+header{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+    url('https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:70px;
+    color:#FFD700;
+}
+
+.hero p{
+    font-size:22px;
+    margin-top:15px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 30px;
+    background:#FFD700;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:50px;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.title h2{
+    color:#FFD700;
+    font-size:40px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1a1a1a;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    color:#FFD700;
+    padding:15px;
+}
+
+.card p{
+    padding:0 15px 20px;
+}
+
+.portfolio{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.portfolio img{
+    width:100%;
+    border-radius:15px;
+}
+
+.contact{
+    text-align:center;
+    background:#111;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+    border-radius:50px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    background:black;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="hero">
+    <div>
+        <h1>HD Créative</h1>
+        <p>Montage Vidéo • Design Graphique • Production de Clips</p>
+        <a href="#contact" class="btn">Nous contacter</a>
+    </div>
+</div>
+</header>
+
+<section>
+    <div class="title">
+        <h2>Nos Services</h2>
+    </div>
+
+    <div class="services">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1574717024453-354056b5e1c6?auto=format&fit=crop&w=800&q=80">
+            <h3>Montage Vidéo</h3>
+            <p>Clips musicaux, publicités, vidéos YouTube et contenus professionnels.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80">
+            <h3>Tournage</h3>
+            <p>Captation avec caméras professionnelles pour événements et clips.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=800&q=80">
+            <h3>Design Graphique</h3>
+            <p>Logos, affiches, flyers, miniatures et identité visuelle.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="title">
+        <h2>Nos Réalisations</h2>
+    </div>
+
+    <div class="portfolio">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80">
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="title">
+        <h2>Contactez-nous</h2>
+    </div>
+
+    <p>Email : contact@hdcreative.com</p>
+    <p>Téléphone : +242 XX XX XX XX</p>
+    <br>
+    <a class="btn" href="#">Demander un devis</a>
+</section>
+
+<footer>
+    <p>© 2026 HD Créative - Tous droits réservés</p>
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/242000000000">
+WhatsApp
+</a>
+
+</body>
+</html>
